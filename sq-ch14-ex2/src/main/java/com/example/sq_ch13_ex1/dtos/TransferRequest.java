@@ -3,11 +3,11 @@ package com.example.sq_ch13_ex1.dtos;
 import java.math.BigDecimal;
 
 public class TransferRequest {
-    private long senderId;
-    private long receiverId;
+    private int senderId;
+    private int receiverId;
     private BigDecimal amount;
 
-    public long getSenderId() {
+    public int getSenderId() {
         return senderId;
     }
 
@@ -15,7 +15,7 @@ public class TransferRequest {
         this.senderId = senderId;
     }
 
-    public long getReceiverId() {
+    public int getReceiverId() {
         return receiverId;
     }
 

@@ -20,7 +20,7 @@ public class AccountController {
     }
 
     @GetMapping("/accounts")
-    public Iterable<Account> getAllAccounts() {
+    public List<Account> getAllAccounts() {
         return transferService.getAllAccounts();
     }
 
